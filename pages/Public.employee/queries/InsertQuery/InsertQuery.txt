@@ -1,0 +1,26 @@
+INSERT INTO public."employee" (
+	"name",
+	"created_at",
+	"title",
+	"email_id",
+	"personal_email_id",
+	"birthday",
+	"gender",
+	"start_date",
+	"country_code",
+	"phone_number",
+	"status"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.created_at}}',
+	'{{insert_form.formData.title}}',
+	'{{insert_form.formData.email_id}}',
+	'{{insert_form.formData.personal_email_id}}',
+	'{{insert_form.formData.birthday}}',
+	'{{insert_form.formData.gender}}',
+	'{{insert_form.formData.start_date}}',
+	'{{insert_form.formData.country_code}}',
+	'{{insert_form.formData.phone_number}}',
+	'{{insert_form.formData.status}}'
+);

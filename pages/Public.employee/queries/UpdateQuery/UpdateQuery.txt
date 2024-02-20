@@ -1,0 +1,13 @@
+UPDATE public."employee" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"created_at" = '{{update_form.fieldState.created_at.isVisible ? update_form.formData.created_at : update_form.sourceData.created_at}}',
+    "title" = '{{update_form.fieldState.title.isVisible ? update_form.formData.title : update_form.sourceData.title}}',
+		"email_id" = '{{update_form.fieldState.email_id.isVisible ? update_form.formData.email_id : update_form.sourceData.email_id}}',
+		"personal_email_id" = '{{update_form.fieldState.personal_email_id.isVisible ? update_form.formData.personal_email_id : update_form.sourceData.personal_email_id}}',
+		"birthday" = '{{update_form.fieldState.birthday.isVisible ? update_form.formData.birthday : update_form.sourceData.birthday}}',
+		"gender" = '{{update_form.fieldState.gender.isVisible ? update_form.formData.gender : update_form.sourceData.gender}}',
+		"start_date" = '{{update_form.fieldState.start_date.isVisible ? update_form.formData.start_date : update_form.sourceData.start_date}}',
+		"country_code" = '{{update_form.fieldState.country_code.isVisible ? update_form.formData.country_code : update_form.sourceData.country_code}}',
+		"phone_number" = '{{update_form.fieldState.phone_number.isVisible ? update_form.formData.phone_number : update_form.sourceData.phone_number}}',
+		"status" = '{{update_form.fieldState.status.isVisible ? update_form.formData.status : update_form.sourceData.status}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

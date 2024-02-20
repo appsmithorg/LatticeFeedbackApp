@@ -1,0 +1,2 @@
+INSERT INTO public."ReceivedFB" ("From_user", "To_user", "FB")
+  VALUES ('{{Text7.text}}', '{{MultiSelect1.selectedOptionLabels.toString()}}', '{{Input1.text}}');

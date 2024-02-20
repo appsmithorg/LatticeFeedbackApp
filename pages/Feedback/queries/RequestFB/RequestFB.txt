@@ -1,0 +1,2 @@
+INSERT INTO public."Request_Feedback" ("created_at", "From_user", "To_user", "FBPrompts")
+  VALUES (TIMESTAMP '2019-07-01 10:00:00', '{{appsmith.user.username}}', '{{MultiSelect2.selectedOptionLabels.toString()}}', '{{Input2.text}}');

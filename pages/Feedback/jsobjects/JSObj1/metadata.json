@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObj1",
+    "pageId": "Feedback",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Feedback_JSObj1",
+  "deleted": false,
+  "gitSyncId": "65b78df28558d22258bb7e7d_65ce05cccd74426660b88c1a"
+}
