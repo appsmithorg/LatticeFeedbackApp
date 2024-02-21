@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button8",
-    "onClick": "{{ManagerEmail.run();\nGiveFeedback.run().then(() => {\n  showAlert('Successfully submitted', 'success');\n  closeModal('Modal1');\n}).catch(() => {\n  showAlert('Unable to submit feedback', 'error');\n});\nGvFdbk.myFun1();}}",
+    "onClick": "{{ManagerEmail.run();\nRecdFBapi.run();\nGiveFeedback.run().then(() => {\n  showAlert('Successfully submitted', 'success');\n  closeModal('Modal1');\n}).catch(() => {\n  showAlert('Unable to submit feedback', 'error');\n});\nGvFdbk.myFun1()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
