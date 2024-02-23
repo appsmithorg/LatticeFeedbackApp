@@ -13,7 +13,7 @@ export default {
 		//set the value of the input widget to the value that is in the variable text above.
 
 		//storeValue("defaultValue", "test")
-		this.defaultValue = existingInput1 + text
+		this.defaultValue = existingInput1 + text + "<br/>"
 
 	},
 	async myFun2 () {
