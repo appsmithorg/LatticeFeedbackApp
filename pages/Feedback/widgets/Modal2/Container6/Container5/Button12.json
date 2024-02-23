@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 23,
     "widgetName": "Button12",
-    "onClick": "{{JSObj1.function1(Text17.text);}}",
+    "onClick": "{{addPrompt.addQuestion(Text17.text);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -43,11 +43,11 @@
     "isLoading": false,
     "mobileTopRow": 19,
     "responsiveBehavior": "hug",
-    "originalTopRow": 18,
+    "originalTopRow": 14,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 48,
-    "originalBottomRow": 22,
+    "originalBottomRow": 18,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }
