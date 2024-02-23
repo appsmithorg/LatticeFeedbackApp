@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "smtp-plugin",
   "unpublishedAction": {
-    "name": "Send_Email",
+    "name": "Send_Email1",
     "datasource": {
       "name": "SMTP",
       "pluginId": "smtp-plugin",
@@ -25,11 +25,11 @@
         "send": {
           "bodyType": "text/plain",
           "from": "{{appsmith.user.username}}",
-          "to": "{{appsmith.user.username}}",
+          "to": "{{MultiSelect2.selectedOptionValues[1].toString()}}",
           "cc": "",
           "subject": "Feedback request",
           "attachments": "",
-          "bcc": "{{MultiSelect2.selectedOptionValues.toString()}}"
+          "bcc": ""
         }
       }
     },
@@ -42,9 +42,6 @@
         "key": "formData.send.from"
       },
       {
-        "key": "formData.send.bcc"
-      },
-      {
         "key": "formData.send.to"
       }
     ],
@@ -52,7 +49,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "MultiSelect2.selectedOptionValues.toString()",
+      "MultiSelect2.selectedOptionValues[1].toString()",
       "Text19.text",
       "appsmith.user.username"
     ],
@@ -60,9 +57,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-15T13:24:40Z"
+    "createdAt": "2024-02-22T13:21:12Z"
   },
-  "id": "Feedback_Send_Email",
+  "id": "Feedback_Send_Email1",
   "deleted": false,
-  "gitSyncId": "65b78df28558d22258bb7e7d_65ce1098cd74426660b89036"
+  "gitSyncId": "65d49ae7737a421d06fa181c_65d74a485648102b4f6c1d87"
 }

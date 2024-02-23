@@ -1,1 +1,1 @@
-SELECT * FROM public."Request_Feedback" LIMIT 10;
+SELECT * FROM public."Request_Feedback";

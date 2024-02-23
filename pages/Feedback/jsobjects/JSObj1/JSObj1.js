@@ -11,8 +11,10 @@ export default {
 		//It then gets the existing input widget using getElementById
 		var existingInput1 = document.getElementById(RichTextEditor1);
 		//set the value of the input widget to the value that is in the variable text above.
+
 		//storeValue("defaultValue", "test")
 		this.defaultValue = text
+
 },
 	async myFun2 () {
 		//	use async-await or promises

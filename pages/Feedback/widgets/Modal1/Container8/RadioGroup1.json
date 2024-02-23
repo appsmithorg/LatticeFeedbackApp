@@ -4,7 +4,7 @@
     "topRow": 15,
     "labelWidth": 5,
     "type": "RADIO_GROUP_WIDGET",
-    "defaultOptionValue": "Y",
+    "defaultOptionValue": "all appsmith employees",
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "accentColor"}],
@@ -12,19 +12,19 @@
     "options": [
         {
             "label": "Public",
-            "value": "Pu"
+            "value": "all appsmith employees"
         },
         {
             "label": "Private",
-            "value": "Pr"
+            "value": "recipient only"
         },
         {
             "label": "Manager only",
-            "value": "Mgr"
+            "value": "recipient's manager only"
         },
         {
             "label": "Private+Manager",
-            "value": "Pr+Mgr"
+            "value": "recipient and their manager"
         }
     ],
     "isDisabled": false,

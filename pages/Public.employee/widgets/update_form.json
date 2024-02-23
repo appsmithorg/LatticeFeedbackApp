@@ -471,7 +471,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.country_code))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "country_code",
                 "isVisible": true,
                 "label": "Country Code",
@@ -482,8 +482,8 @@
                 "iconAlign": "left",
                 "position": 8,
                 "isDisabled": false,
-                "sourceData": 91,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "nationality": {
                 "labelTextSize": "0.875rem",
@@ -515,7 +515,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.employee_id))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "employee_id",
                 "isVisible": true,
                 "label": "Employee Id",
@@ -526,8 +526,8 @@
                 "iconAlign": "left",
                 "position": 14,
                 "isDisabled": false,
-                "sourceData": 1,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "name": {
                 "labelTextSize": "0.875rem",
@@ -559,7 +559,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.phone_number))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "phone_number",
                 "isVisible": true,
                 "label": "Phone Number",
@@ -570,8 +570,8 @@
                 "iconAlign": "left",
                 "position": 9,
                 "isDisabled": false,
-                "sourceData": 9052115739,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "manager_email": {
                 "labelTextSize": "0.875rem",

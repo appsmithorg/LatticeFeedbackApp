@@ -13,7 +13,7 @@
     "type": "RADIO_GROUP_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 22,
-    "defaultOptionValue": "Y",
+    "defaultOptionValue": "you only",
     "animateLoading": true,
     "parentColumnSpace": 8.792081117630005,
     "dynamicTriggerPathList": [],

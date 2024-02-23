@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"text\": You have received feedback from {{appsmith.user.username}}\n}",
+      "body": "{\n    \"text\": You have received feedback from {{appsmith.user.username}}. Go to the Feedback Application to view detailed feedback - https://internal.appsmith.com/app/trial-app/trial-65b78df28558d22258bb7e81?branch=Testing. \n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
