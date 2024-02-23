@@ -11,7 +11,7 @@ export default {
 		var existingInput1 = document.getElementById(Input2);
 		//set the value of the input widget to the value that is in the variable text above.
 		Input2.setValue(text)
-   
+		   
 },
 	function2 () 
 	{
