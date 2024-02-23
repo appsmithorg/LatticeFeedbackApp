@@ -3,8 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 23,
     "widgetName": "Button12",
-    "onClick": "{{JSObj1.function2();}}",
+    "onClick": "{{JSObj1.function1(Text17.text);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

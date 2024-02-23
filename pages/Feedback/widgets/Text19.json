@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 177,
-    "bottomRow": 188,
+    "bottomRow": 190,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appsmith.user.username}} has requested feedback from you:\n\n {{Input2.text}}\n\nLogin to Feedback app to give feedback",
+    "text": "{{appsmith.user.username}} has requested feedback from you:\n\n {{RichTextEditor1.text}}\n\nLogin to Feedback app to give feedback",
     "key": "hlb4vbnagg",
     "isDeprecated": false,
     "rightColumn": 52,
