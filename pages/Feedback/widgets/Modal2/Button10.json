@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button10",
-    "onClick": "{{Send_Email.run().then(() => {\n  showAlert('Email Sent', 'success');\n}).catch(() => {\n  showAlert('Email was not sent!', 'error');\n});\ncloseModal('Modal2');\nApi1.run();\nRequestFB.run();\nresetWidget(\"MultiSelect2\", true);\nresetWidget(\"Input2\", true);}}",
+    "onClick": "{{ReqFdbkSendIndividualEmails.myFun1();\ncloseModal('Modal2');\nApi1.run();\nRequestFB.run();\nresetWidget(\"MultiSelect2\", true);\nresetWidget(\"Input2\", true);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

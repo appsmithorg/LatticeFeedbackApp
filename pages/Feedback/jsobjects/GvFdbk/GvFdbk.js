@@ -12,7 +12,7 @@ export default {
 				
 				case RadioGroup1.options[0].value:
 					// Task for option 1
-					Send_Email.run()
+					Send_Email0.run()
 
 					break;
 				case RadioGroup1.options[1].value:
