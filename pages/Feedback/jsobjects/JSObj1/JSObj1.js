@@ -4,13 +4,14 @@ export default {
 	function1 () 
 	{
     // Get the text from the text widget
-    var textWidget1 = document.getElementById(Text16);
+    var textWidget2 = document.getElementById(Text16);
 		// and assign it to a variable
     var text = Text16.text;
 		//It then gets the existing input widget using getElementById
-		var existingInput1 = document.getElementById(Input2);
+		// var existingInput2 = document.getElementById(Input2);
+		var existingText = Input2.text;
 		//set the value of the input widget to the value that is in the variable text above.
-		Input2.setValue(text)
+		Input2.setValue(existingText + "\n" + text)
    
 },
 	function2 () 
@@ -20,9 +21,10 @@ export default {
 		// and assign it to a variable
     var text = Text17.text;
 		//It then gets the existing input widget using getElementById
-		var existingInput2 = document.getElementById(Input2);
+		// var existingInput2 = document.getElementById(Input2);
+		var existingText = Input2.text;
 		//set the value of the input widget to the value that is in the variable text above.
-		Input2.setValue(text)
+		Input2.setValue(existingText + "\n" + text)
    
 },
 	function3 () 
@@ -32,9 +34,10 @@ export default {
 		// and assign it to a variable
     var text = Text18.text;
 		//It then gets the existing input widget using getElementById
-		var existingInput2 = document.getElementById(Input2);
+		// var existingInput2 = document.getElementById(Input2);
+		var existingText = Input2.text;
 		//set the value of the input widget to the value that is in the variable text above.
-		Input2.setValue(text)
+		Input2.setValue(existingText + "\n" + text)
 		
    
 },
