@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 4,
-    "widgetName": "Text22Copy",
+    "widgetName": "Info",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -48,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
-    "originalTopRow": 12,
+    "originalTopRow": 22,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 16,
+    "originalBottomRow": 26,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

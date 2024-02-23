@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button8",
-    "onClick": "{{ManagerEmail.run();\nRecdFBapi.run();\nGiveFeedback.run().then(() => {\n  closeModal('Modal1');\n  showAlert('You have successfully submitted feedback about ' + MultiSelect1.selectedOptionLabels.toString() + '!!!', 'success');\n}).catch(() => {\n  showAlert('Unable to submit feedback', 'error');\n});\nGvFdbk.myFun1();}}",
+    "onClick": "{{ManagerEmail.run();\nRecdFBapi.run();\nGiveFeedback.run().then(() => {\n  closeModal('Modal1');\n  showAlert('You have successfully submitted feedback about ' + MultiSelect1.selectedOptionLabels.toString() + '!!!', 'success');\n}).catch(() => {\n  showAlert('Unable to submit feedback', 'error');\n});\nGvFdbk.myFun1();\nresetWidget(\"RadioGroup1\", true);\nresetWidget(\"Input1\", true);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

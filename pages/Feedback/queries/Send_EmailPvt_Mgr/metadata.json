@@ -18,17 +18,18 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "{{Input1.text}}",
+      "body": "{{appsmith.user.name}} has left feedback for {{MultiSelect1.selectedOptionLabels.toString()}}\n\n{{Input1.text}}",
       "selfReferencingDataPaths": [],
       "formData": {
         "command": "SEND",
         "send": {
           "bodyType": "text/plain",
           "from": "aparna@appsmith.com",
-          "to": "{{MultiSelect1.selectedOptionValues.toLocaleString()}}, {{ManagerEmail.data[0].manager_email}}",
+          "to": "{{MultiSelect1.selectedOptionValues.toLocaleString()}}",
           "cc": "",
           "subject": "Feedback request",
-          "attachments": ""
+          "attachments": "",
+          "bcc": "{{ManagerEmail.data[0].manager_email}}"
         }
       }
     },
@@ -39,6 +40,9 @@
       },
       {
         "key": "formData.send.to"
+      },
+      {
+        "key": "formData.send.bcc"
       }
     ],
     "isValid": true,
@@ -47,7 +51,9 @@
     "jsonPathKeys": [
       "Input1.text",
       "ManagerEmail.data[0].manager_email",
-      "MultiSelect1.selectedOptionValues.toLocaleString()"
+      "MultiSelect1.selectedOptionLabels.toString()",
+      "MultiSelect1.selectedOptionValues.toLocaleString()",
+      "appsmith.user.name"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

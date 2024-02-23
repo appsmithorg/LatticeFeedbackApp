@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "{{Input1.text}}",
+      "body": "{{appsmith.user.name}} has left feedback for {{MultiSelect1.selectedOptionLabels.toString()}}\n\n{{Input1.text}}",
       "selfReferencingDataPaths": [],
       "formData": {
         "command": "SEND",
@@ -46,7 +46,9 @@
     "messages": [],
     "jsonPathKeys": [
       "Input1.text",
-      "MultiSelect1.selectedOptionValues.toLocaleString()"
+      "MultiSelect1.selectedOptionLabels.toString()",
+      "MultiSelect1.selectedOptionValues.toLocaleString()",
+      "appsmith.user.name"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
