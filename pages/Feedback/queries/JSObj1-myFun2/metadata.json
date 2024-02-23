@@ -23,7 +23,6 @@
       "jsArguments": []
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-15T12:38:36Z"
+    "createdAt": "2024-02-23T10:11:29Z"
   },
   "id": "Feedback_JSObj1.myFun2",
   "deleted": false,
-  "gitSyncId": "65b78df28558d22258bb7e7d_65ce05cccd74426660b88c13"
+  "gitSyncId": "65d6e39b52b5d661d34dd487_65d86f515648102b4f6c22dc"
 }

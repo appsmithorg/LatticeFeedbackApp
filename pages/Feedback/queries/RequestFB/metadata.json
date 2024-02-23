@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO public.\"Request_Feedback\" (\"created_at\", \"From_user\", \"To_user\", \"FBPrompts\")\n  VALUES (TIMESTAMP '2019-07-01 10:00:00', '{{appsmith.user.username}}', '{{MultiSelect2.selectedOptionLabels.toString()}}', '{{Input2.text}}');",
+      "body": "INSERT INTO public.\"Request_Feedback\" (\"created_at\", \"From_user\", \"To_user\", \"FBPrompts\")\n  VALUES (TIMESTAMP '2019-07-01 10:00:00', '{{appsmith.user.username}}', '{{MultiSelect2.selectedOptionLabels.toString()}}', '{{RichTextEditor1.text}}');",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,8 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Input2.text",
       "MultiSelect2.selectedOptionLabels.toString()",
+      "RichTextEditor1.text",
       "appsmith.user.username"
     ],
     "userSetOnLoad": false,
