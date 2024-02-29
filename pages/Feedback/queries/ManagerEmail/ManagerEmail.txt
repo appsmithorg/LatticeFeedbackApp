@@ -1,0 +1,1 @@
+SELECT "employee"."manager_email" FROM public."employee" where name = '{{MultiSelect1.selectedOptionLabels.toString()}}'
