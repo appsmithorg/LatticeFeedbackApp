@@ -1,19 +1,11 @@
 {
   "pages": [
     {
-      "id": "Trial",
-      "isDefault": false
-    },
-    {
       "id": "Feedback",
       "isDefault": true
     },
     {
       "id": "Public.employee",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
       "isDefault": false
     }
   ],
