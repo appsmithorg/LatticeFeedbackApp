@@ -3,7 +3,6 @@ export default {
 	myVar2: {},
 	myFun1 () { 
 
-
 		var variableValues = MultiSelect2.selectedOptionValues
 
 		// Perform an action for each value in the variable using a for loop
