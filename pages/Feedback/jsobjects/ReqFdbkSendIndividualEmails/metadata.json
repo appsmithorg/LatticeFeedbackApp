@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "65d49ae7737a421d06fa181c_65d746a952b5d661d34dea63",
+  "id": "Feedback_ReqFdbkSendIndividualEmails",
   "unpublishedCollection": {
     "name": "ReqFdbkSendIndividualEmails",
     "pageId": "Feedback",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Feedback_ReqFdbkSendIndividualEmails",
-  "deleted": false,
-  "gitSyncId": "65d49ae7737a421d06fa181c_65d746a952b5d661d34dea63"
+    ]
+  }
 }

@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "65b78df28558d22258bb7e7d_65d45be40b90712f71f483df",
+  "id": "Feedback_ReqFdbk",
   "unpublishedCollection": {
     "name": "ReqFdbk",
     "pageId": "Feedback",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Feedback_ReqFdbk",
-  "deleted": false,
-  "gitSyncId": "65b78df28558d22258bb7e7d_65d45be40b90712f71f483df"
+    ]
+  }
 }
