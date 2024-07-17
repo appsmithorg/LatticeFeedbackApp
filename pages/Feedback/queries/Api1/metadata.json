@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n    \"text\": You have been requested feedback from {{appsmith.user.username}}\n}",
+      "body": "{\n    \"text\": You have been requested feedback from {{appsmith.user.username}}\n\t \n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

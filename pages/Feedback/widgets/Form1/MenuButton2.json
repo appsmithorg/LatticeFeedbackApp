@@ -18,6 +18,9 @@
     },
     {
       "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItem3.onClick"
     }
   ],
   "hideCard": false,
@@ -56,6 +59,7 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "Write a Private Note",
+      "onClick": "{{showModal()}}",
       "widgetId": ""
     }
   },
