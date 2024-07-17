@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "65b78df28558d22258bb7e7d_65d43f5d737a421d06fa150d",
+  "id": "Feedback_GvFdbk",
   "unpublishedCollection": {
     "name": "GvFdbk",
     "pageId": "Feedback",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Feedback_GvFdbk",
-  "deleted": false,
-  "gitSyncId": "65b78df28558d22258bb7e7d_65d43f5d737a421d06fa150d"
+    ]
+  }
 }

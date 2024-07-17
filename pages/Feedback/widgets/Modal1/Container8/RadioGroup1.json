@@ -1,68 +1,80 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
-    "topRow": 15,
-    "labelWidth": 5,
-    "type": "RADIO_GROUP_WIDGET",
-    "defaultOptionValue": "Y",
-    "animateLoading": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
-    "onSelectionChange": "",
-    "options": [
-        {
-            "label": "Public",
-            "value": "Pu"
-        },
-        {
-            "label": "Private",
-            "value": "Pr"
-        },
-        {
-            "label": "Manager only",
-            "value": "Mgr"
-        },
-        {
-            "label": "Private+Manager",
-            "value": "Pr+Mgr"
-        }
-    ],
-    "isDisabled": false,
-    "flexVerticalAlignment": "start",
-    "isRequired": false,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": ["Toggles"],
-    "isLoading": false,
-    "originalBottomRow": 21,
-    "alignment": "left",
-    "mobileBottomRow": 20,
-    "widgetName": "RadioGroup1",
-    "dynamicPropertyPathList": [],
-    "displayName": "Radio Group",
-    "searchTags": ["choice"],
-    "bottomRow": 21,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 22,
-    "parentColumnSpace": 8.379483342170715,
-    "dynamicTriggerPathList": [{"key": "onSelectionChange"}],
-    "labelPosition": "Top",
-    "key": "9pp952x0us",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "widgetId": "2i0thchq9y",
-    "label": "Whom do you want to share this with",
-    "parentId": "0of03xt7m0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 14,
-    "originalTopRow": 15,
-    "mobileLeftColumn": 2,
-    "maxDynamicHeight": 9000,
-    "isInline": true,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "defaultOptionValue": "Y",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSelectionChange"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "9pp952x0us",
+  "label": "Whom do you want to share this with",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 14,
+  "onSelectionChange": "",
+  "options": [
+    {
+      "label": "Public",
+      "value": "Pu"
+    },
+    {
+      "label": "Private",
+      "value": "Pr"
+    },
+    {
+      "label": "Manager only",
+      "value": "Mgr"
+    },
+    {
+      "label": "Private+Manager",
+      "value": "Pr+Mgr"
+    }
+  ],
+  "originalBottomRow": 21,
+  "originalTopRow": 15,
+  "parentColumnSpace": 8.379483342170715,
+  "parentId": "0of03xt7m0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "choice"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "topRow": 15,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "2i0thchq9y",
+  "widgetName": "RadioGroup1"
 }

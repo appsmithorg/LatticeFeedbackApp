@@ -1,63 +1,71 @@
 {
-    "boxShadow": "none",
-    "mobileBottomRow": 20,
-    "widgetName": "RadioGroup2",
-    "dynamicPropertyPathList": [],
-    "iconSVG": "/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
-    "displayName": "Radio Group",
-    "topRow": 6,
-    "searchTags": ["choice"],
-    "bottomRow": 12,
-    "parentRowSpace": 10,
-    "labelWidth": 5,
-    "type": "RADIO_GROUP_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 22,
-    "defaultOptionValue": "Y",
-    "animateLoading": true,
-    "parentColumnSpace": 8.792081117630005,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
-    "labelPosition": "Top",
-    "options": [
-        {
-            "label": "Private",
-            "value": "you only"
-        },
-        {
-            "label": "Private + Manager",
-            "value": "you and your manager"
-        },
-        {
-            "label": "Manager only",
-            "value": "with your manager only"
-        }
-    ],
-    "isDisabled": false,
-    "flexVerticalAlignment": "start",
-    "key": "pka61lno2b",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 63,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "widgetId": "rtqfv9rqp2",
-    "isVisible": true,
-    "label": "Who do you want to share the feedback with?",
-    "version": 1,
-    "parentId": "mwgcwgf5yy",
-    "tags": ["Toggles"],
-    "isLoading": false,
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 14,
-    "originalTopRow": 6,
-    "mobileLeftColumn": 2,
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 12,
-    "isInline": true,
-    "alignment": "left",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultOptionValue": "Y",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "pka61lno2b",
+  "label": "Who do you want to share the feedback with?",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 14,
+  "options": [
+    {
+      "label": "Private",
+      "value": "you only"
+    },
+    {
+      "label": "Private + Manager",
+      "value": "you and your manager"
+    },
+    {
+      "label": "Manager only",
+      "value": "with your manager only"
+    }
+  ],
+  "originalBottomRow": 12,
+  "originalTopRow": 6,
+  "parentColumnSpace": 8.792081117630005,
+  "parentId": "mwgcwgf5yy",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchTags": [
+    "choice"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "topRow": 6,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "rtqfv9rqp2",
+  "widgetName": "RadioGroup2"
 }
