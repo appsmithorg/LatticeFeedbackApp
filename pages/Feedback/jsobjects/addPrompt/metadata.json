@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "65d49ae7737a421d06fa181c_65d87ba05648102b4f6c2479",
+  "id": "Feedback_addPrompt",
   "unpublishedCollection": {
     "name": "addPrompt",
     "pageId": "Feedback",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "rteDefaultValue",
@@ -15,10 +15,6 @@
         "name": "timerId",
         "value": "null"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Feedback_addPrompt",
-  "deleted": false,
-  "gitSyncId": "65d49ae7737a421d06fa181c_65d87ba05648102b4f6c2479"
+    ]
+  }
 }
