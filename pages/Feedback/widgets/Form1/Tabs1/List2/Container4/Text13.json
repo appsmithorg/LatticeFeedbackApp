@@ -40,7 +40,7 @@
   "mobileLeftColumn": 16,
   "mobileRightColumn": 24,
   "mobileTopRow": 4,
-  "overflow": "NONE",
+  "overflow": "SCROLL",
   "parentId": "yxgymprcuz",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",

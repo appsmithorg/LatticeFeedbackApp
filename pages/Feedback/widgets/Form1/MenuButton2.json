@@ -41,7 +41,7 @@
   "isVisible": true,
   "key": "mtd2bxk2am",
   "label": "Feedback options",
-  "leftColumn": 48,
+  "leftColumn": 51,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem1": {
