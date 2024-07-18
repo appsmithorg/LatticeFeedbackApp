@@ -1,31 +1,39 @@
 {
-    "boxShadow": "none",
-    "widgetName": "Text16",
-    "dynamicPropertyPathList": [{"key": "fontSize"}],
-    "topRow": 1,
-    "bottomRow": 5,
-    "parentRowSpace": 10,
-    "type": "TEXT_WIDGET",
-    "parentColumnSpace": 11.78515625,
-    "dynamicTriggerPathList": [],
-    "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "fontFamily"}],
-    "text": "public_employee Data",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 54,
-    "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
-    "widgetId": "urzv99hdc8",
-    "isVisible": "true",
-    "fontStyle": "BOLD",
-    "textColor": "#231F20",
-    "version": 1,
-    "parentId": "59rw5mx0bq",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "maxDynamicHeight": 9000,
-    "fontSize": "1.5rem",
-    "minDynamicHeight": 4
+  "borderRadius": "0px",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1.5rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 11.78515625,
+  "parentId": "59rw5mx0bq",
+  "parentRowSpace": 10,
+  "rightColumn": 54,
+  "text": "public_employee Data",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "urzv99hdc8",
+  "widgetName": "Text16"
 }

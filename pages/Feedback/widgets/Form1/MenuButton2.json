@@ -1,72 +1,82 @@
 {
-    "isCompact": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 10,
-    "widgetName": "MenuButton2",
-    "displayName": "Menu button",
-    "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 5,
-    "bottomRow": 9,
-    "parentRowSpace": 10,
-    "type": "MENU_BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 39,
-    "animateLoading": true,
-    "parentColumnSpace": 14.328125,
-    "dynamicTriggerPathList": [
-        {"key": "menuItems.menuItem1.onClick"},
-        {"key": "menuItems.menuItem2.onClick"}
-    ],
-    "leftColumn": 47,
-    "dynamicBindingPathList": [
-        {"key": "menuColor"},
-        {"key": "borderRadius"}
-    ],
-    "isDisabled": false,
-    "key": "mtd2bxk2am",
-    "isDeprecated": false,
-    "rightColumn": 63,
-    "menuVariant": "PRIMARY",
-    "widgetId": "3bdqnwv2l1",
-    "menuItems": {
-        "menuItem1": {
-            "onClick": "{{showModal('Modal1');}}",
-            "widgetId": "",
-            "index": 0,
-            "label": "Give Feedback",
-            "id": "menuItem1",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "menuItem3": {
-            "widgetId": "",
-            "index": 2,
-            "label": "Write a Private Note",
-            "id": "menuItem3",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "menuItem2": {
-            "onClick": "{{showModal('Modal2');}}",
-            "widgetId": "",
-            "index": 1,
-            "label": "Request Feedback",
-            "id": "menuItem2",
-            "isVisible": true,
-            "isDisabled": false
-        }
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "displayName": "Menu button",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
     },
-    "isVisible": true,
-    "label": "Feedback Options",
-    "version": 1,
-    "parentId": "t075ev692p",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 6,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 23,
-    "menuItemsSource": "STATIC",
-    "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-    "placement": "CENTER"
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "mtd2bxk2am",
+  "label": "Feedback Options",
+  "leftColumn": 47,
+  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Give Feedback",
+      "onClick": "{{showModal('Modal1');}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Request Feedback",
+      "onClick": "{{showModal('Modal2');}}",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "id": "menuItem3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Write a Private Note",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 6,
+  "parentColumnSpace": 14.328125,
+  "parentId": "t075ev692p",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "tags": [
+    "Buttons"
+  ],
+  "topRow": 5,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "3bdqnwv2l1",
+  "widgetName": "MenuButton2"
 }
