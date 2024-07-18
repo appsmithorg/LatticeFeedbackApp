@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 26,
+  "bottomRow": 30,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -24,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "0unvk52dsj",
-  "leftColumn": 37,
+  "leftColumn": 54,
   "minWidth": 120,
   "mobileBottomRow": 26,
   "mobileLeftColumn": 47,
@@ -38,7 +38,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "searchTags": [
     "click",
     "submit"
@@ -47,7 +47,7 @@
     "Buttons"
   ],
   "text": "Submit",
-  "topRow": 22,
+  "topRow": 26,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "ba1iqej2co",

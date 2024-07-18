@@ -40,7 +40,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "mtd2bxk2am",
-  "label": "Feedback Options",
+  "label": "Feedback options",
   "leftColumn": 48,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {

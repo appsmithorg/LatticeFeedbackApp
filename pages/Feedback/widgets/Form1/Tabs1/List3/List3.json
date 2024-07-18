@@ -9,12 +9,12 @@
   "animateLoading": true,
   "backgroundColor": "transparent",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 64,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "bottomRow": 69,
+  "boxShadow": "none",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 640,
+      "bottomRow": 690,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -82,10 +82,12 @@
       "key": "borderRadius"
     },
     {
-      "key": "boxShadow"
-    },
-    {
       "key": "listData"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "primaryKeys"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -115,7 +117,7 @@
   "parentColumnSpace": 10.619205474853516,
   "parentId": "81096fmgjd",
   "parentRowSpace": 10,
-  "primaryKeys": "{{List3.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "primaryKeys": "{{List3.listData.map((currentItem, currentIndex) => currentItem[\"FB\"]+currentIndex )}}",
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",

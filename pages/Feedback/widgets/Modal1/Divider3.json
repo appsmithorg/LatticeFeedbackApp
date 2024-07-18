@@ -12,12 +12,12 @@
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "d6256z16lw",
+  "key": "gk2slbvf38",
   "leftColumn": 1,
   "minWidth": 450,
   "mobileBottomRow": 4,
-  "mobileLeftColumn": 20,
-  "mobileRightColumn": 40,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "onCanvasUI": {
@@ -28,8 +28,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "orientation": "horizontal",
-  "parentColumnSpace": 9.875,
-  "parentId": "akjcnrrgq5",
+  "parentColumnSpace": 9.75,
+  "parentId": "c0n54v4y62",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -46,6 +46,6 @@
   "topRow": 4,
   "type": "DIVIDER_WIDGET",
   "version": 1,
-  "widgetId": "moewzw1tfb",
-  "widgetName": "Divider2"
+  "widgetId": "xm7zr3tojy",
+  "widgetName": "Divider3"
 }

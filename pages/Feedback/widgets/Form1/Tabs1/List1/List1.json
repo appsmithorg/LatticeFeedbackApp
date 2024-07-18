@@ -10,7 +10,7 @@
   "backgroundColor": "transparent",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 60,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "boxShadow": "none",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -77,9 +77,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
     },
     {
       "key": "listData"

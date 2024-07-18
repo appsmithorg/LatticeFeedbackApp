@@ -10,7 +10,7 @@
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 640,
+      "bottomRow": 690,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -196,7 +196,7 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 12,
   "onTabSelected": "{{Received.run();\nGiven.run()}}",
-  "originalBottomRow": 80,
+  "originalBottomRow": 79,
   "originalTopRow": 12,
   "parentColumnSpace": 11.105224609375,
   "parentId": "t075ev692p",
