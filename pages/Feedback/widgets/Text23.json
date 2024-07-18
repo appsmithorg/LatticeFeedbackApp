@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 95,
+  "bottomRow": 94,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -58,7 +58,7 @@
   "text": "{{ManagerEmail.data[0].manager_email}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 91,
+  "topRow": 90,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

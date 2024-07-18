@@ -4,12 +4,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 82,
+  "bottomRow": 81,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 820,
+      "bottomRow": 810,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -70,7 +70,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "go6962224j",
-  "leftColumn": 5,
+  "leftColumn": 6,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -86,7 +86,7 @@
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 59,
+  "rightColumn": 58,
   "searchTags": [
     "group"
   ],
