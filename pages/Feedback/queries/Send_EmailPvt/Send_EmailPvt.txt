@@ -1,3 +1,3 @@
-{{appsmith.user.name}} has left feedback for {{MultiSelect1.selectedOptionLabels.toString()}}
+You have recieved an email from {{appsmith.user.email}}
 
 {{Input1.text}}

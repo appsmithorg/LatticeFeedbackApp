@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "{{appsmith.user.name}} has left feedback for {{MultiSelect1.selectedOptionLabels.toString()}}\n\n{{Input1.text}}",
+      "body": "You have recieved an email from {{appsmith.user.email}}\n\n{{Input1.text}}",
       "encodeParamsToggle": true,
       "formData": {
         "command": "SEND",

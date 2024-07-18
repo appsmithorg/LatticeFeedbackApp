@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 139,
+  "bottomRow": 136,
   "bottomRowBeforeCollapse": 136,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
@@ -273,7 +273,7 @@
     "Display"
   ],
   "textSize": "0.875rem",
-  "topRow": 111,
+  "topRow": 108,
   "topRowBeforeCollapse": 108,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
