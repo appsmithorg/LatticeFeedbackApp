@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 188,
+  "bottomRow": 191,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -58,7 +58,7 @@
   "text": "{{appsmith.user.username}} has requested feedback from you:\n\n {{RichTextEditor1.text}}\n\nLogin to Feedback app to give feedback",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 177,
+  "topRow": 180,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

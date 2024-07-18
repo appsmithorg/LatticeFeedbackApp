@@ -73,9 +73,6 @@
       "key": "triggeredItemView"
     },
     {
-      "key": "primaryKeys"
-    },
-    {
       "key": "accentColor"
     },
     {
@@ -86,6 +83,14 @@
     },
     {
       "key": "listData"
+    },
+    {
+      "key": "primaryKeys"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "primaryKeys"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -115,7 +120,7 @@
   "parentColumnSpace": 10.619205474853516,
   "parentId": "81096fmgjd",
   "parentRowSpace": 10,
-  "primaryKeys": "{{List3.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "primaryKeys": "{{List3.listData.map((currentItem, currentIndex) =>currentIndex)}}",
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",
