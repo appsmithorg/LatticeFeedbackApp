@@ -5,12 +5,12 @@
       "type": "FIXED"
     },
     "navigationSetting": {
-      "colorStyle": "light",
+      "colorStyle": "theme",
       "itemStyle": "text",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "sidebar",
-      "orientation": "side",
+      "logoConfiguration": "noLogoOrApplicationTitle",
+      "navStyle": "inline",
+      "orientation": "top",
       "position": "static",
       "showNavbar": true,
       "showSignIn": true
@@ -40,12 +40,12 @@
       "type": "FIXED"
     },
     "navigationSetting": {
-      "colorStyle": "light",
+      "colorStyle": "theme",
       "itemStyle": "text",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "sidebar",
-      "orientation": "side",
+      "logoConfiguration": "noLogoOrApplicationTitle",
+      "navStyle": "inline",
+      "orientation": "top",
       "position": "static",
       "showNavbar": true,
       "showSignIn": true

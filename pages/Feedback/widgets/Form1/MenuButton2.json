@@ -1,8 +1,18 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 12,
   "boxShadow": "none",
+  "configureMenuItems": {
+    "config": {
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Menu Item"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
   "displayName": "Menu button",
   "dynamicBindingPathList": [
     {
@@ -21,6 +31,8 @@
     }
   ],
   "hideCard": false,
+  "iconAlign": "right",
+  "iconName": "symbol-triangle-down",
   "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
   "isCompact": false,
   "isDeprecated": false,
@@ -29,7 +41,7 @@
   "isVisible": true,
   "key": "mtd2bxk2am",
   "label": "Feedback Options",
-  "leftColumn": 47,
+  "leftColumn": 48,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem1": {
@@ -70,11 +82,12 @@
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 63,
+  "rightColumn": 64,
+  "sourceData": [],
   "tags": [
     "Buttons"
   ],
-  "topRow": 5,
+  "topRow": 8,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "3bdqnwv2l1",
