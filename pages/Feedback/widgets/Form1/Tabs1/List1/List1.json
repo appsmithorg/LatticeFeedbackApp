@@ -102,7 +102,7 @@
   "itemBackgroundColor": "#FFFFFF",
   "itemSpacing": 8,
   "key": "1z6316act9",
-  "leftColumn": 4,
+  "leftColumn": 0,
   "listData": "{{Given.data}}",
   "mainCanvasId": "w8zzkhjx8z",
   "mainContainerId": "4cawdkree0",
@@ -119,7 +119,7 @@
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 59,
+  "rightColumn": 64,
   "selectedItemView": "{{{}}}",
   "tags": [
     "Suggested",

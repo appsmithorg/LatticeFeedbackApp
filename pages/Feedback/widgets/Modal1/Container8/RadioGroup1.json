@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignment": "left",
   "animateLoading": true,
-  "bottomRow": 21,
+  "bottomRow": 13,
   "boxShadow": "none",
   "defaultOptionValue": "all appsmith employees",
   "displayName": "Radio Group",
@@ -59,8 +59,8 @@
       "value": "recipient and their manager"
     }
   ],
-  "originalBottomRow": 21,
-  "originalTopRow": 15,
+  "originalBottomRow": 15,
+  "originalTopRow": 7,
   "parentColumnSpace": 8.379483342170715,
   "parentId": "0of03xt7m0",
   "parentRowSpace": 10,
@@ -72,7 +72,7 @@
   "tags": [
     "Toggles"
   ],
-  "topRow": 15,
+  "topRow": 7,
   "type": "RADIO_GROUP_WIDGET",
   "version": 1,
   "widgetId": "2i0thchq9y",

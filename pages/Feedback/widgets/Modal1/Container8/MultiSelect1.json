@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 7,
   "boxShadow": "none",
   "defaultOptionValue": [
     "GREEN",
@@ -67,7 +67,7 @@
   "tags": [
     "Select"
   ],
-  "topRow": 6,
+  "topRow": 0,
   "type": "MULTI_SELECT_WIDGET_V2",
   "version": 1,
   "widgetId": "h134zjnrd7",

@@ -14,7 +14,7 @@
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 630,
+      "bottomRow": 640,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -102,7 +102,7 @@
   "itemBackgroundColor": "#FFFFFF",
   "itemSpacing": 8,
   "key": "o6zobtxmh0",
-  "leftColumn": 5,
+  "leftColumn": 0,
   "listData": "{{PendingFB.data}}",
   "mainCanvasId": "axlul1xkdb",
   "mainContainerId": "irh2wx5pta",
@@ -119,14 +119,14 @@
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 64,
   "selectedItemView": "{{{}}}",
   "tags": [
     "Suggested",
     "Display"
   ],
   "templateHeight": 160,
-  "topRow": 1,
+  "topRow": 0,
   "triggeredItemView": "{{{}}}",
   "type": "LIST_WIDGET_V2",
   "widgetId": "k2kylqflwo",
