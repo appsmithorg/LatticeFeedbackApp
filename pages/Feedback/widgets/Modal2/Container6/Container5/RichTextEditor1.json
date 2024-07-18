@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 47,
+  "bottomRow": 45,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "defaultText": "{{JSObj1.defaultValue}}",
   "displayName": "Rich Text Editor",
@@ -31,7 +31,7 @@
   "key": "c0sruoibge",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Label",
+  "labelText": "",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
@@ -41,8 +41,8 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 24,
   "mobileTopRow": 27,
-  "originalBottomRow": 47,
-  "originalTopRow": 27,
+  "originalBottomRow": 45,
+  "originalTopRow": 25,
   "parentColumnSpace": 8.18927001953125,
   "parentId": "oxi4nm8yqq",
   "parentRowSpace": 10,
@@ -56,7 +56,7 @@
   "tags": [
     "Inputs"
   ],
-  "topRow": 27,
+  "topRow": 25,
   "type": "RICH_TEXT_EDITOR_WIDGET",
   "version": 1,
   "widgetId": "qxc424up0d",

@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignment": "left",
   "animateLoading": true,
-  "bottomRow": 12,
+  "bottomRow": 11,
   "boxShadow": "none",
   "defaultOptionValue": "you only",
   "displayName": "Radio Group",
@@ -24,7 +24,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "pka61lno2b",
-  "label": "Who do you want to share the feedback with?",
+  "label": "",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelTextSize": "0.875rem",
@@ -63,7 +63,7 @@
   "tags": [
     "Toggles"
   ],
-  "topRow": 6,
+  "topRow": 7,
   "type": "RADIO_GROUP_WIDGET",
   "version": 1,
   "widgetId": "rtqfv9rqp2",

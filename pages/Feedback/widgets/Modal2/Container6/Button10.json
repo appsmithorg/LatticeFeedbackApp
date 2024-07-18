@@ -1,11 +1,11 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 44,
+  "bottomRow": 67,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonStyle": "PRIMARY",
-  "buttonVariant": "SECONDARY",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "displayName": "Button",
   "dynamicBindingPathList": [
@@ -16,6 +16,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "hideCard": false,
   "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
   "isDefaultClickDisabled": true,
@@ -23,23 +28,23 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "lg3z6dyg92",
-  "leftColumn": 31,
+  "key": "gl08pzcouq",
+  "leftColumn": 36,
   "minWidth": 120,
   "mobileBottomRow": 22,
-  "mobileLeftColumn": 31,
-  "mobileRightColumn": 47,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
   "mobileTopRow": 18,
-  "onClick": "{{closeModal('Modal1')}}",
-  "originalBottomRow": 46,
-  "originalTopRow": 42,
-  "parentId": "c0n54v4y62",
+  "onClick": "{{ReqFdbkSendIndividualEmails.myFun1();\ncloseModal('Modal2');\nApi1.run();\nRequestFB.run();\nresetWidget(\"MultiSelect2\", true);\nresetWidget(\"Input2\", true);}}",
+  "originalBottomRow": 67,
+  "originalTopRow": 63,
+  "parentId": "mwgcwgf5yy",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 47,
+  "rightColumn": 63,
   "searchTags": [
     "click",
     "submit"
@@ -47,10 +52,10 @@
   "tags": [
     "Buttons"
   ],
-  "text": "Close",
-  "topRow": 40,
+  "text": "Request Private Feedback",
+  "topRow": 63,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "m9jqeo0m0k",
-  "widgetName": "Button7"
+  "widgetId": "o5pqs9g33v",
+  "widgetName": "Button10"
 }
